@@ -1,0 +1,7 @@
+from pydentity.identity.user import i_identity_user_builder, identity_user_builder
+from pydentity.identity.user import identity_user, identity_user_manager
+
+IdentityUser = identity_user.IdentityUser
+IIdentityUserBuilder = i_identity_user_builder.IIdentityUserBuilder
+IdentityUserBuilder = identity_user_builder.IdentityUserBuilder
+IdentityUserManager = identity_user_manager.IdentityUserManager
